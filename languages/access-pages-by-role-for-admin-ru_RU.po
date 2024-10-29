@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Access Pages by Role for Admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-18 17:23+0000\n"
+"PO-Revision-Date: 2020-05-20 10:37+0000\n"
+"Last-Translator: WacoMart\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.4; wp-5.4.1"
+
+#: includes/apbrfa-settings.php:30
+msgid "Access Pages Control"
+msgstr "Контроль доступа к страницам"
+
+#: includes/apbrfa-settings.php:40
+msgid "General"
+msgstr "Основные"
+
+#: includes/apbrfa-settings.php:44
+msgid "Help"
+msgstr "Помощь"
+
+#: includes/apbrfa-settings.php:55
+msgid "Pages"
+msgstr "Страницы"
+
+#: includes/apbrfa-settings.php:56
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/apbrfa-settings.php:86
+msgid "Allow users not logged in access"
+msgstr "Разрешить доступ не авторизованным пользователям"
+
+#: includes/apbrfa-settings.php:87
+msgid ""
+"Turn it on if you want non-authorized users (guests) to be able to visit "
+"restricted pages (pages that have a restriction for any role)."
+msgstr ""
+"Включите, если хотите, чтобы неавторизованные пользователи (гости) могли "
+"посещать запрещенные страницы (страницы, для которых есть ограничения для "
+"любой роли)."
+
+#: includes/apbrfa-settings.php:92
+msgid "Default Redirect URL"
+msgstr "URL-адрес для редиректа по умолчанию"
+
+#: includes/apbrfa-settings.php:93
+msgid "The user will be redirected to this URL without access to the page"
+msgstr ""
+"Пользователь  без доступа к странице будет перенаправлен на этот URL-адрес"
+
+#: includes/apbrfa-settings.php:101
+msgid "Redirect to login"
+msgstr "Редирект на форму авторизации"
+
+#: includes/apbrfa-settings.php:102
+msgid ""
+"Turn it on if you want an unauthorized user to be redirected to the login "
+"page instead Default Redirect URL."
+msgstr ""
+"Включите, если вы хотите, чтобы неавторизованный пользователь был "
+"перенаправлен на страницу с формой авторизации вместо URL-адреса для "
+"редиректа по умолчанию"
+
+#: includes/apbrfa-settings.php:107
+msgid "Types of Posts"
+msgstr "Типы записей"
+
+#: includes/apbrfa-settings.php:108
+msgid ""
+"Choose what types of posts you want to control access to. Hold CTRL to "
+"select multiple."
+msgstr ""
+"Выберите, каких типов записей вы хотите контролировать доступ. Удерживайте "
+"CTRL, чтобы выбрать несколько."
+
+#: includes/apbrfa-settings.php:114
+msgid "Types of Taxonomies"
+msgstr "Типы таксономий"
+
+#: includes/apbrfa-settings.php:115
+msgid ""
+"Choose what types of taxonomies you want to control access to. Hold CTRL to "
+"select multiple."
+msgstr ""
+"Выберите, каких типов таксономий вы хотите контролировать доступ. "
+"Удерживайте CTRL, чтобы выбрать несколько."
+
+#: includes/apbrfa-settings.php:123
+msgid "How do I get support?"
+msgstr "Как мне получить поддержку?"
+
+#: includes/apbrfa-settings.php:124
+msgid ""
+"If you have questions or problems when working with this plugin, you can get "
+"help on the support forum <a href=\"https://wordpress."
+"org/support/plugin/access-pages-by-role-for-admin/\" target=\"_blank\">"
+"wordpress.org</a>"
+msgstr ""
+"Если у вас есть вопросы или проблемы при работе с этим плагином, вы можете "
+"получить помощь на форуме поддержки <a href=\"https://wordpress."
+"org/support/plugin/access-pages-by-role-for-admin/\" target=\"_blank\">"
+"wordpress.org</a>"
+
+#: includes/apbrfa-settings.php:135
+msgid "Access Pages by Role Settings"
+msgstr "Настройки Access Pages by Role for Admin"
+
+#: includes/class.settings-api.php:422
+msgid "No registered sidebars found."
+msgstr "Зарегистрированные боковые панели не найдены."
+
+#: includes/apbrfa-functions.php:14 includes/apbrfa-functions.php:79
+#: includes/apbrfa-functions.php:151
+msgid "Access Control"
+msgstr "Контроль доступа"
+
+#: includes/apbrfa-functions.php:36 includes/apbrfa-functions.php:153
+msgid "Select the roles for which you want to block access"
+msgstr "Выберите роли, для которых вы хотите заблокировать доступ"
+
+#: includes/apbrfa-functions.php:102 includes/apbrfa-functions.php:204
+msgid "Blocked for:"
+msgstr "Заблокировано для:"
+
+#: includes/apbrfa-functions.php:104 includes/apbrfa-functions.php:206
+msgid "No restrictions"
+msgstr "Без ограничений"
+
+#: includes/apbrfa-functions.php:300 includes/apbrfa-functions.php:313
+msgid "You don't have access to this page, contact the website administrator."
+msgstr "У вас нет доступа к этой странице, обратитесь к администратору сайта."
+
+#. Name of the plugin
+msgid "Access Pages by Role for Admin"
+msgstr "Access Pages by Role for Admin"
+
+#. Description of the plugin
+msgid "Allows an administrator to control access to pages by user role."
+msgstr ""
+"Позволяет администратору контролировать доступ к страницам по ролям "
+"пользователей."
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/access-pages-by-role-for-admin/"
+msgstr "https://wordpress.org/plugins/access-pages-by-role-for-admin/"
+
+#. Author of the plugin
+msgid "WacoMart"
+msgstr "WacoMart"
+
+#. Author URI of the plugin
+msgid "https://wacomart.ru"
+msgstr "https://wacomart.ru"
